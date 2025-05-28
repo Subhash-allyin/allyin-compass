@@ -48,7 +48,7 @@ The system auto-generates sample data on first run:
 
 ### 1. Setup Environment
 ```bash
-git clone <your-repo>
+git clone https://github.com/Subhash-allyin/allyin-compass.git
 cd allyin-compass
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
