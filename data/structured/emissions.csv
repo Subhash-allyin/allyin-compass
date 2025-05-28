@@ -1,0 +1,21 @@
+facility_id,customer_id,facility_name,location,emission_type,emission_value,unit,measurement_date,compliance_limit,violation_status,facility_type,last_inspection
+F001,C002,Energy Solutions Plant A,Houston TX,CO2,4500,tons/month,2024-12-01,3000,Violation,Natural Gas,2024-11-15
+F002,C002,Energy Solutions Plant B,Beaumont TX,NOx,125,kg/day,2024-12-01,150,Compliant,Refinery,2024-10-20
+F003,C004,Green Power Facility,Portland OR,SO2,89,kg/day,2024-12-01,50,Violation,Coal Power,2024-09-30
+F004,C004,Green Power Station 2,Salem OR,PM2.5,34,mg/m3,2024-12-01,25,Violation,Coal Power,2024-09-30
+F005,C007,Solar Dynamics Factory,Phoenix AZ,VOC,12,tons/year,2024-12-01,15,Compliant,Manufacturing,2024-11-01
+F006,C010,Wind Energy Operations,Denver CO,CO2,450,tons/month,2024-12-01,500,Compliant,Wind Farm,2024-10-15
+F007,C013,Natural Gas Terminal A,Dallas TX,CH4,234,kg/day,2024-12-01,100,Violation,Gas Processing,2024-08-20
+F008,C013,Natural Gas Terminal B,Fort Worth TX,CO2,8900,tons/month,2024-12-01,5000,Violation,Gas Processing,2024-08-20
+F009,C001,Global Pharma Lab,Boston MA,Chemical Waste,23,kg/month,2024-12-01,30,Compliant,Research Lab,2024-11-28
+F010,C005,BioMed Research Center,San Diego CA,Biohazard Waste,45,kg/month,2024-12-01,40,Violation,Research Lab,2024-10-10
+F011,C008,Genomics Plus Facility,Cambridge MA,Chemical Waste,67,kg/month,2024-12-01,35,Violation,Research Lab,2024-09-15
+F012,C011,Clinical Trials Lab,Philadelphia PA,Medical Waste,89,kg/month,2024-12-01,100,Compliant,Medical Facility,2024-11-05
+F013,C014,Vaccine Development Lab,Seattle WA,Biohazard Waste,34,kg/month,2024-12-01,40,Compliant,Research Lab,2024-11-20
+F014,C002,Energy Solutions Refinery,Texas City TX,CO2,12000,tons/month,2024-12-01,10000,Violation,Refinery,2024-10-20
+F015,C013,Natural Gas Pipeline Station,Houston TX,CH4,156,kg/day,2024-12-01,120,Violation,Pipeline,2024-09-01
+F016,C004,Green Power Solar Farm,Bend OR,Heavy Metals,0.5,mg/L,2024-12-01,1.0,Compliant,Solar Farm,2024-11-30
+F017,C007,Solar Dynamics Plant 2,Tucson AZ,PM10,28,mg/m3,2024-12-01,30,Compliant,Manufacturing,2024-11-01
+F018,C010,Wind Energy Maintenance,Boulder CO,Oil Waste,12,gallons/month,2024-12-01,20,Compliant,Maintenance,2024-12-05
+F019,C008,Genomics Research Wing,Boston MA,Radioactive Waste,2.3,mCi/month,2024-12-01,1.0,Violation,Research Lab,2024-08-30
+F020,C001,Global Pharma Production,Worcester MA,VOC,8,tons/year,2024-12-01,10,Compliant,Manufacturing,2024-12-10

@@ -1,0 +1,16 @@
+customer_id,company_name,domain,risk_score,annual_revenue,compliance_status,location,account_manager,last_audit_date,violations_count
+C001,Global Pharma Inc,Biotech,7.2,45000000,Compliant,Boston MA,Sarah Chen,2024-09-15,0
+C002,Energy Solutions LLC,Energy,8.5,78000000,Under Review,Houston TX,Mike Johnson,2024-07-22,3
+C003,TechFin Corp,Finance,4.1,120000000,Compliant,New York NY,Lisa Wang,2024-11-30,0
+C004,Green Power Systems,Energy,6.8,34000000,Non-Compliant,Portland OR,James Miller,2024-06-10,5
+C005,BioMed Research Ltd,Biotech,5.5,56000000,Compliant,San Diego CA,Anna Davis,2024-10-20,1
+C006,Capital Investment Group,Finance,3.2,250000000,Compliant,Chicago IL,Robert Lee,2024-12-05,0
+C007,Solar Dynamics,Energy,7.9,23000000,Under Review,Phoenix AZ,Maria Garcia,2024-08-18,2
+C008,Genomics Plus,Biotech,9.1,12000000,Non-Compliant,Cambridge MA,David Kim,2024-05-25,4
+C009,Wealth Management Inc,Finance,2.8,180000000,Compliant,San Francisco CA,Emily Brown,2024-11-15,0
+C010,Wind Energy Co,Energy,5.2,89000000,Compliant,Denver CO,John Wilson,2024-09-28,1
+C011,Clinical Trials Corp,Biotech,6.5,67000000,Under Review,Philadelphia PA,Susan Taylor,2024-07-14,2
+C012,Trading Securities LLC,Finance,4.7,95000000,Compliant,Miami FL,Tom Harris,2024-12-20,0
+C013,Natural Gas Solutions,Energy,8.8,156000000,Non-Compliant,Dallas TX,Jennifer Martinez,2024-04-30,6
+C014,Vaccine Development Inc,Biotech,7.0,78000000,Compliant,Seattle WA,Chris Anderson,2024-10-10,1
+C015,Investment Banking Group,Finance,3.5,320000000,Compliant,Los Angeles CA,Patricia White,2024-11-25,0

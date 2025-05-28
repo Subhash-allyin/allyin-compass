@@ -8,11 +8,6 @@ venv/
 env/
 ENV/
 
-# Data
-data/
-logs/
-*.db
-*.duckdb
 
 # Secrets
 .env

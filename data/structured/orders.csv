@@ -1,0 +1,21 @@
+order_id,customer_id,order_date,product_service,category,amount,status,compliance_required,risk_flag,delivery_date
+O001,C001,2024-12-01,Clinical Trial Management,Research Services,2500000,Completed,Yes,Low,2025-01-15
+O002,C002,2024-11-15,Carbon Offset Credits,Environmental,450000,In Progress,Yes,High,2025-02-01
+O003,C003,2024-12-10,Risk Assessment Software,Financial Software,180000,Completed,No,Low,2024-12-20
+O004,C004,2024-10-22,Emission Monitoring System,Environmental,320000,Delayed,Yes,High,2025-03-01
+O005,C005,2024-12-05,Lab Equipment,Research Equipment,890000,In Progress,Yes,Medium,2025-01-20
+O006,C006,2024-11-28,Portfolio Management,Financial Services,1200000,Completed,No,Low,2024-12-15
+O007,C007,2024-12-18,Solar Panel Installation,Energy Equipment,567000,Pending,Yes,Medium,2025-02-15
+O008,C008,2024-09-30,Gene Sequencing Service,Research Services,234000,On Hold,Yes,High,2025-04-01
+O009,C009,2024-12-12,Investment Advisory,Financial Services,450000,Completed,No,Low,2024-12-30
+O010,C010,2024-11-20,Wind Turbine Maintenance,Energy Services,780000,In Progress,Yes,Medium,2025-01-10
+O011,C011,2024-12-08,Drug Testing Protocol,Research Services,1100000,In Progress,Yes,Medium,2025-02-20
+O012,C012,2024-12-15,Trading Platform License,Financial Software,95000,Completed,No,Low,2024-12-25
+O013,C013,2024-10-15,Pipeline Inspection,Energy Services,2300000,Delayed,Yes,High,2025-03-15
+O014,C014,2024-11-25,Vaccine Storage System,Research Equipment,456000,In Progress,Yes,Medium,2025-01-05
+O015,C015,2024-12-20,M&A Advisory,Financial Services,3500000,Pending,No,Low,2025-02-28
+O016,C001,2024-12-22,Regulatory Compliance Audit,Compliance Services,125000,Scheduled,Yes,Low,2025-01-30
+O017,C004,2024-11-01,Environmental Impact Study,Environmental,89000,Completed,Yes,High,2024-12-01
+O018,C008,2024-10-05,Laboratory Certification,Compliance Services,67000,Failed,Yes,High,2024-11-15
+O019,C013,2024-11-10,Emission Reduction Plan,Environmental,340000,Under Review,Yes,High,2025-02-10
+O020,C007,2024-12-25,Renewable Energy Credits,Environmental,234000,Pending,Yes,Medium,2025-01-25
