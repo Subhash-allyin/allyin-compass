@@ -2,9 +2,16 @@ from datetime import datetime
 from typing import Dict
 import re
 import os
+import sys
+from pathlib import Path
+
+# Add parent directory to path for imports
+sys.path.append(str(Path(__file__).parent.parent))
+
 from langchain.tools import Tool
 from langchain.agents import initialize_agent, AgentType
 from langchain_community.chat_models import ChatOpenAI
+from logs.query_logger import QueryLogger
 
 class MultiToolAgent:
     def __init__(self, sql_retriever, vector_retriever, graph_retriever, rag_pipeline):
@@ -13,6 +20,7 @@ class MultiToolAgent:
         self.graph_retriever = graph_retriever
         self.rag_pipeline = rag_pipeline
         self.query_count = 0
+        self.logger = QueryLogger()
         
         # Few-shot examples for response formatting
         self.few_shot_examples = {
@@ -205,16 +213,30 @@ Use the actual data from the search results to fill in the specific details."""
             template_enhanced_query = self._enhance_query_with_template(clean_query)
             enhanced_query = f"{template_enhanced_query}\n\nDomain focus: {domain_context}" if domain_context else template_enhanced_query
             
-            answer = self.rag_pipeline.generate_answer(enhanced_query, combined_context)["answer"]
+            result = self.rag_pipeline.generate_answer(enhanced_query, combined_context)
+            answer = result.get("answer", "No answer generated")
+            tokens_used = result.get("tokens_used", 0)
         else:
             answer = "No relevant data found for the query."
+            tokens_used = 0
         
         self.query_count += 1
+        execution_time = (datetime.now() - start_time).total_seconds()
+        
+        # Log the query execution
+        self.logger.log_query(
+            query=clean_query,
+            tools_used=tools_used,
+            execution_time=execution_time,
+            answer_length=len(answer),
+            tokens_used=tokens_used,
+            domain=domain
+        )
         
         return {
             "answer": answer,
             "tools_used": tools_used,
-            "execution_time": (datetime.now() - start_time).total_seconds(),
+            "execution_time": execution_time,
             "context": "\n\n".join(context_parts) if context_parts else "No context available",
             "domain": domain,
             "tools_summary": f"Tools used: {', '.join([f'{tool.upper()}' for tool in tools_used])}"

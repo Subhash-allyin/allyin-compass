@@ -23,3 +23,4 @@
 {"timestamp": "2025-05-27T00:42:08.220731", "query": "Environmental compliance status", "domain": "Energy", "tools_used": ["vector"], "execution_time": 6.403014, "answer_length": 1649, "tokens_used": 460, "query_length": 31}
 {"timestamp": "2025-05-27T00:42:20.240791", "query": "Find CO2 emissions violations", "domain": "Energy", "tools_used": ["graph"], "execution_time": 6.156084, "answer_length": 1737, "tokens_used": 549, "query_length": 29}
 {"timestamp": "2025-05-27T00:51:54.126629", "query": "Which customers are high risk?", "domain": "Finance", "tools_used": ["sql", "graph"], "execution_time": 16.340312, "answer_length": 1216, "tokens_used": 424, "query_length": 30}
+{"timestamp": "2025-05-28T14:45:19.544714", "query": "Which customers are high risk?", "domain": "Finance", "tools_used": ["sql", "vector", "graph"], "execution_time": 20.827056, "answer_length": 1789, "tokens_used": 1233, "query_length": 30}
